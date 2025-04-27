@@ -1,0 +1,45 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-family: sans-serif;
+}
+
+.timer-display {
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+.timer-status {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.controls button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.controls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.stats {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.button-start { background-color: #4CAF50; color: white; }
+.button-pause { background-color: #ff9800; color: white; }
+.button-reset { background-color: #f44336; color: white; }
